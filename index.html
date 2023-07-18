@@ -58,32 +58,127 @@
 
     <!--slider de imagenes-->
 
-    <div id="carouselExampleIndicators" class="carousel slide">
+    <div id="carouselExampleDark" class="carousel carousel-dark slide d-flex justify-content-center "
+        data-bs-ride="carousel">
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="3000">
-            <img src="./IMG/logo.jpg" class="d-block w-100" alt="slide1">
-          </div>
-          <div class="carousel-item" data-bs-interval="3000">
-            <img src="./IMG/productos.jpg" class="d-block w-100" alt="slide2">
-          </div>
-          <div class="carousel-item" data-bs-interval="3000">
-            <img src="./IMG/productos2.jpg" class="d-block w-100" alt="slide3">
-          </div>
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="./IMG/productos.jpg" class="d-block w-100" alt="slide1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Cincuenta años de experiencia a su servicio </h5>
+                    <p>Nos especializamos en carros antiguos.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="./IMG/productos2.jpg" class="d-block w-100" alt="slide2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>algunos de nuestros productos a la vental</h5>
+                    <p>Tableros, Manometros Guayas.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="./IMG/productos3.jpg" class="d-block w-100" alt="slide3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Restauramos Tableros</h5>
+                    <p>Traenos el tuyo.</p>
+                </div>
+            </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
         </button>
-      </div>
+    </div>
+
+
+    <!--contenido-->
+    <section class="w-50 mx-auto text-center pt-5" id="contenido">
+        <h1 class="p-3 fs-2 border-top border-3"><span class="text-primary">Cincuenta años </span> de experiencia a su
+            servicio</span></h1>
+        <p class="p-3 fs-4"><span class="text-primary"> Casa del manometro</span> es la empresa donde encontrara
+            repuestos para
+            todo lo relacionado con los indicadores de su vehiculo, ademas nos especializamos en
+            carros antiguos restaurando su antiguo tablero y dejandolo como nuevo</p>
+    </section>
+
+    <!--servicios-->
+    <section class="container-fluid">
+        <div class="row w-75 mx-auto  servicio-fila">
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+                <img src="./IMG/indicador.png" alt="desarrollo" width="180" height="130">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">Reparacion</h3>
+                    <p class="px-4">Reparacion de velocimetros, indicadores de gasolina, temperatura, aceite</p>
+                </div>
+
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+                <img src="./IMG/indicador2.png" alt="desarrollo" width="180" height="130">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">Restauracion</h3>
+                    <p class="px-4">dejamos tus tableros antiguos como nuevos, Ven y trae el tuyo! </p>
+                </div>
+
+            </div>
+    </section>
+
+    <!--ecards-->
+    <section class="container-fluid">
+        <div class="row w-75 mx-auto ">
+            <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-start my-5 ">
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Tablero de toyota 2f modelo antiguo</h5>
+                      <p class="card-text">garantia de 12 meses version amperimetro de 30 y 50 amperios.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-start my-5 ">
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">indicador de aceite vetree</h5>
+                      <p class="card-text">indicador de guaya (3 metros).</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-start my-5 ">
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">indicador de aceite suzuki</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-start my-5 ">
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">indicador de voltios</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
